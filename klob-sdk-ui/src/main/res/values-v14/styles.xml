@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppBaseTheme.Dark" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="android:windowBackground">@drawable/transparent</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:fitsSystemWindows">true</item>
+        <item name="android:windowNoTitle">true</item>
+
+        <item name="android:textColorPrimary">@color/text_color_primary</item>
+        <item name="android:textColorSecondary">@color/text_second_color_primary</item>
+
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="searchViewStyle">@style/SearchViewStyle</item>
+        <item name="android:autoCompleteTextViewStyle">@style/AutoCompleteTextView</item>
+        <item name="popupTheme">@style/popupTheme</item>
+        <item name="popupMenuStyle">@style/popupMenuStyle</item>
+        <item name="android:activatedBackgroundIndicator">@drawable/base_activated_background</item>
+        <item name="selectableItemBackground">@drawable/base_selectable_background</item>
+    </style>
+
+    <style name="buttonSmallParent" parent="Widget.AppCompat.Button">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">3dp</item>
+        <item name="android:layout_marginBottom">3dp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">14sp</item>
+        <item name="colorControlHighlight">?attr/colorAccent</item>
+    </style>
+
+    <style name="buttonMiddleParent" parent="Widget.AppCompat.Button">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">6dp</item>
+        <item name="android:paddingLeft">30dp</item>
+        <item name="android:paddingRight">30dp</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:layout_marginBottom">6dp</item>
+        <item name="android:layout_marginLeft">15dp</item>
+        <item name="android:layout_marginRight">15dp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="colorControlHighlight">?attr/colorAccent</item>
+    </style>
+
+    <style name="buttonLargeParent" parent="Widget.AppCompat.Button">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">6dp</item>
+        <item name="android:minHeight">32dp</item>
+        <item name="android:paddingTop">18dp</item>
+        <item name="android:paddingBottom">18dp</item>
+        <item name="android:layout_marginBottom">6dp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="colorControlHighlight">?attr/colorAccent</item>
+        <item name="android:textSize">17sp</item>
+    </style>
+
+    <style name="buttonSmall" parent="buttonSmallParent">
+        <item name="android:background">?attr/colorPrimary</item>
+    </style>
+
+    <style name="buttonMiddle" parent="buttonMiddleParent">
+        <item name="android:background">?attr/colorPrimary</item>
+    </style>
+
+    <style name="buttonLarge" parent="buttonLargeParent">
+        <item name="android:background">?attr/colorPrimary</item>
+    </style>
+</resources>

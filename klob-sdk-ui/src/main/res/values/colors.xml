@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="white">#ffffff</color>
+    <color name="black">#ff000000</color>
+
+    <color name="tab_selected">#2595cb</color>
+    <color name="tab_normal">#909090</color>
+    <color name="comm_tab_selected_strip">#ffffffff</color>
+    <color name="k_theme_color">#4699f6</color>
+    <color name="font_gray">#999999</color>
+    <color name="font_theme">#3bbd79</color>
+    <color name="font_black_content_disabled">#cacaca</color>
+
+    <color name="transparent">#00000000</color>
+    <color name="camera_background">#ff353535</color>
+
+    <color name="placeholdercolor">#e1e4eb</color>
+    <color name="background_tab_pressed">#6633B5E5</color>
+
+    <color name="loading">#ffDEDFDF</color>
+    <color name="darker_blue">#0099CC</color>
+
+    <item name="line_gray" type="drawable">#ffc7cacc</item>
+    <item name="gray" type="color">#FF323A45</item>
+
+    <color name="font_blue">#ff4D9DF5</color>
+    <color name="font_blue_pressed">#ff387AC5</color>
+
+    <drawable name="transparent">#00000000</drawable>
+    <color name="primary">?attr/colorPrimary</color>
+
+    <color name="divider">#99999999</color>
+
+    <color name="text_color_primary">#212121</color>
+    <color name="text_second_color_primary">#727272</color>
+
+    <color name="divide">#ffeeeeee</color>
+    <color name="divide_line">#ffdddddd</color>
+    <color name="theme_bg_color">#f0f2f5</color>
+
+    <color name="red">#FF5722</color>
+    <color name="dark_red">#F4511E</color>
+    <color name="accent_red">#FF6347</color>
+
+    <color name="brown">#795548</color>
+    <color name="dark_brown">#5D4037</color>
+    <color name="accent_brown">#795548</color>
+
+
+    <color name="blue">#2196F3</color>
+    <color name="dark_blue">#1976D2</color>
+    <color name="accent_blue">#448AFF</color>
+
+    <color name="blue_grey">#607D8B</color>
+    <color name="dark_blue_grey">#455A64</color>
+    <color name="accent_blue_grey">#607D8B</color>
+
+    <color name="yellow">#facd36</color>
+    <color name="dark_yellow">#e3ba32</color>
+    <color name="accent_yellow">#facd36</color>
+
+    <color name="deep_purple">#673AB7</color>
+    <color name="dark_deep_purple">#512DA8</color>
+    <color name="accent_deep_purple">#7C4DFF</color>
+
+    <color name="pink">#E91E63</color>
+    <color name="dark_pink">#C2185B</color>
+    <color name="accent_pink">#FF4081</color>
+
+    <color name="green">#4CAF50</color>
+    <color name="dark_green">#388E3C</color>
+    <color name="accent_green">#4CAF50</color>
+
+    <color name="white_pressed">#ffcccccc</color>
+    <color name="stand_bg">#fff6f6f6</color>
+
+
+    <color name="eden_primary">#109c8f</color>
+    <color name="eden_primaryDark">#0e8d81</color>
+    <color name="eden_accent">#acdad5</color>
+    <color name="menu_bg">#cccccc</color>
+</resources>

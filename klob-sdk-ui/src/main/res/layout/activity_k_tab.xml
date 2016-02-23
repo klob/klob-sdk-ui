@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    >
+
+    <com.diandi.klob.sdk.ui.common.IndexViewPager
+        android:id="@+id/fragment_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/tab_layout"
+        />
+
+
+    <RelativeLayout
+        android:id="@+id/tab_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/tab_layout_height"
+        android:layout_alignParentBottom="true"
+        android:background="@color/white"
+        android:gravity="bottom">
+
+
+        <LinearLayout
+            android:id="@+id/btom_tab_layout"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/tab_layout_height"
+            android:orientation="horizontal">
+
+        </LinearLayout>
+
+        <View
+            android:id="@+id/tab_line"
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="#cccccc"/>
+
+    </RelativeLayout>
+</RelativeLayout>

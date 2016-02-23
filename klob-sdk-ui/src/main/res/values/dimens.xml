@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="base_action_bar_height">48.0dp</dimen>
+    <dimen name="base_action_bar_title_size">18.0sp</dimen>
+	<dimen name="point_width">5dp</dimen>
+    <dimen name="point_margin">8dp</dimen>
+    <dimen name="tab_layout_height">60dp</dimen>
+</resources>
